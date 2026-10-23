@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
   margin: unset;
@@ -8,7 +8,7 @@
 body {
   width: min(65ch - 16px, 100% - 16px);
   margin-inline: auto;
-  font-family: 'Crimson Pro';
+  font-family: 'Gelasio';
   font-size: 16px;
   line-height: 1.75;
   margin-block: 96px;
@@ -72,8 +72,12 @@ ol ol {
 
 figcaption {
   font-weight: 500;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
+}
+
+strong {
+  font-weight: 600;
 }
 
 a {
@@ -98,6 +102,10 @@ a {
 }
 
 .link-icon {
-  height: 100%;
-  background: red;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-inline-end: 0.25em;
+  vertical-align: middle;
+  object-fit: contain;
 }
